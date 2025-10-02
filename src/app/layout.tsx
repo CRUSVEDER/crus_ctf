@@ -42,8 +42,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <main className="container mx-auto py-8 min-h-[80vh]">{children}</main>
 
-        <footer className="border-t py-4 text-center text-sm text-muted-foreground">
-          Built by Crus • Powered by Next.js & shadcn/ui
+        <footer className="border-t bg-background py-4 text-center text-sm text-muted-foreground">
+          <p>Built by Crus • Powered by Next.js & shadcn/ui</p>
+          <p>Crusveder</p>
         </footer>
       </ThemeProvider>
     </body></html>
